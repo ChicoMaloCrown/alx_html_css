@@ -1,0 +1,368 @@
+/*General Rest*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+/*Header Section Styles*/
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/*Main Section Style*/
+.intro-h1 {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/Images/background.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.intro-h1 h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.intro-h1 p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.button {
+    background-color: #C271FF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+
+ /*Pros Section Style*/
+.pros-section {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.pros-section h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #ccc;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.highlight {
+    color: #C271FF
+}
+
+.pros-container {
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.pros-block {
+    text-align: center;
+}
+
+.pros-block img {
+    border-radius: 40%;
+    width: 80px;
+    height: 80px;
+    border-spacing: 100px;
+}
+
+.pros-block h3 {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border-spacing: 80px;
+    text-align: justify;
+}
+
+.pros-block p {
+    font-size: 9px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: justify;
+}
+
+section {
+    padding: auto;
+    text-align: center;
+}
+
+
+/*Quote Section Style*/
+.quote {
+    background-color: #C271FF;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-section img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+blockquote {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+}
+
+.quote-block h3 {
+    margin-top: 20px;
+}
+
+.quote-block h3, .quote-block p {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+/*Tutorial Section Style*/
+.video-list {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.video-list h2 {
+    font-size: 34px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 250px;
+    text-align: left;
+    position: relative;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.rating {
+    height: 15px;
+}
+
+.rate {
+    display: flex;
+}
+
+.rate p {
+    margin-left: 60px;
+}
+
+.play {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50px;
+    right: 90px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.video-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.video-card p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.massey {
+    display: flex;
+    margin: 10px 0px;
+}
+
+
+/*Membership Section Style*/
+.membership {
+    background-color: #071629;
+    color: white;
+    padding: 50px;
+}
+
+.membership h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.membership h3 {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.member-container p {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.member-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.member {
+    text-align: center;
+    max-width: 200px;
+    align-items: center;
+}
+
+.member .icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.mem-button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px 30px;
+    width: 100%
+}
+
+/*FAQ Section Style*/
+.faq-section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    margin: 60px;
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+
+.faq h3 {
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.faq p {
+    text-align: left;
+    font-size: 12px;
+}
+
+
+/*Footer Section Style*/
+footer {
+    background-color: #071629;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+}
+
+.social-icons {
+    margin-left: 750px;
+}
+
+.footer-section p {
+    color: white;
+}
