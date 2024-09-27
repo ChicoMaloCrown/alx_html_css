@@ -56,6 +56,7 @@ header {
 /*Intro Section Styling*/
 .intro {
     background-image: url(/Images/h-background.png);
+    background-size: cover;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -104,4 +105,58 @@ header {
     font-weight: lighter;
     text-align: center;
     width: 37%;
+}
+
+/*What we do Section Styling*/
+.quality {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    width: 100%;
+    height: 450px;
+}
+
+.quality-p {
+    text-align: center;
+    padding: 0 300px;
+}
+
+.quality-p h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.quality-p p {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.sound {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px
+}
+
+.sound-img {
+    align-items: center;
+    text-align: center;
+}
+
+.sound-img .img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.sound-img h3 {
+    font-size: 16px;
+}
+
+.sound-img p {
+    font-size: 12px;
+    padding: 10px 30px;
 }
