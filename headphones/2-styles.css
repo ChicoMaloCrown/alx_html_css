@@ -8,8 +8,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 800px 
 }
 
 ul, ol {
@@ -107,6 +106,7 @@ header {
     width: 37%;
 }
 
+
 /*What we do Section Styling*/
 .quality {
     display: flex;
@@ -159,4 +159,40 @@ header {
 .sound-img p {
     font-size: 12px;
     padding: 10px 30px;
+}
+
+
+/*Our result Section*/
+.result {
+    background-image: url(/Images/h-2-background.png);  
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 90px;
+}
+
+.result h2 {
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.result p {
+    font-size: 12px;
+    padding: 10px 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result-img {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.dot {
+    width: 100px;
 }
